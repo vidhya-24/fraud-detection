@@ -1,0 +1,100 @@
+/* Full screen gradient background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    to bottom,
+    #ff4da6,
+    #8e44ad,
+    #1f5bd9
+  );
+}
+
+/* White box */
+.login-box {
+  width: 320px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Remember me */
+.remember {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.remember input {
+  margin-right: 5px;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #ff4da6;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.login-btn:hover {
+  background: #e60073;
+}
+
+/* Text */
+.or-text {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+/* Social buttons */
+.social-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-login button {
+  width: 48%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.signup {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.signup span {
+  color: #ff4da6;
+  cursor: pointer;
+}
